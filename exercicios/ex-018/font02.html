@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <Style>
+        @font-face {
+            font-family: 'Old London';
+            src: url(old_london/OldLondon.ttf) format('truetype'), url(old_london/Olondon_.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face{
+            font-family: 'Old Londona';
+            src: url(old_london/OldLondonAlternate.ttf) format('truetype'), url(old_london/Olondona.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(90deg, black 20%, rgb(56, 56, 56) , gray );
+            background-attachment: fixed;
+            color: white;
+        }
+        h1,h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+        p{
+            font-family: 'old london';
+            font-size: 2em;
+        }
+    </Style>
+</head>
+<body>
+    <h1>Títulos</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur facere reprehenderit facilis enim similique. Eum a quaerat doloribus repellat! Nihil in explicabo at soluta voluptatem dolores vitae repellat! Unde, aspernatur!</p>
+    <h2>Título 01</h2>
+    <p style="font-family: 'Old Londona';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel atque mollitia cum laboriosam animi placeat rerum, inventore nostrum deserunt quibusdam iure error eaque minus ipsa pariatur recusandae, doloremque temporibus repellat!</p>
+</body>
+</html>
