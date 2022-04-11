@@ -39,26 +39,30 @@ main{
 }
 main pre{
     font-family: var(--font3);
-    margin: 25px 15px;
-    
-
+    margin: 0px 15px;
 }
 .paralax{
     background-color: rgba(0, 0, 0, 0.815);
     display: inline-block;
     color: white;
     padding: 5px;
-    margin: 40px 20px;
+    margin: 20px 10px;
+}
+main section{
+    padding: 25px 10px;
+  
 }
 main section#joaninha{
     background-image: url(../img/background001.jpg);
     background-position: right center;
     background-attachment: fixed;
+    
 }
 main section#cartas{
     background-image: url(../img/background002.jpg);
     background-position: right center;
     background-attachment: fixed;
+    
 }
 footer{
     background-color: black;
